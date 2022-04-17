@@ -1,0 +1,28 @@
+.gallery {
+  display: none;
+}
+
+.models {
+  margin-top: 10px;
+  /* Style the color of the message that says 'No file chosen' */
+    color: #878787;
+  }
+  .models::-webkit-file-upload-button {
+    background: #9BACD2;
+    border: 2px solid #9BACD2;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    outline: none;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    transition: all 1s ease;
+  }
+  
+  .models::-webkit-file-upload-button:hover {
+    background: #fff;
+    border: 2px solid #535353;
+    color: #000;
+  }
+  
